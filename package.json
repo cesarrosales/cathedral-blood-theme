@@ -1,0 +1,24 @@
+{
+  "name": "cathedral-blood-theme",
+  "displayName": "Cathedral Blood Theme",
+  "description": "Blood-red gothic theme: deep blacks, ash grays, cathedral glow.",
+  "version": "0.0.1",
+  "publisher": "you",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "configurationDefaults": {
+      "editor.cursorStyle": "line",
+      "editor.cursorWidth": 2,
+      "editor.renderWhitespace": "none",
+      "editor.fontWeight": "450"
+    },
+    "themes": [
+      {
+        "label": "Cathedral Blood",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cathedral-blood-color-theme.json"
+      }
+    ]
+  }
+}
